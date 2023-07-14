@@ -38,6 +38,6 @@ pack build \
   --builder paketobuildpacks/builder-jammy-buildpackless-static \
   --buildpack paketo-buildpacks/go \
   --env "CGO_ENABLED=0" \
-  --env "BP_GO_BUILD_FLAGS=-buildmode=default"
+  --env "BP_GO_BUILD_FLAGS=-buildmode=default" \
   <app-name>
 ```
